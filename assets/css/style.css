@@ -1,9 +1,7 @@
 body {
     width: 100%;
-    position: fixed;
-    padding-right: 50%;
-    padding-right: 50%;
-    /* clear: both; */
+    clear: both;
+    background-image: url("../images/DustBackground.png");
 }
 
 
@@ -12,7 +10,7 @@ h1 {
     color: white;
     text-align: center;
     font-size: 30px;
-    margin: 0;
+    margin: 0 565px 0 205px;
     padding: 20px;
     float: left;
   
@@ -23,6 +21,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     border-bottom: solid 2px #cccccc;
     background: white;
@@ -34,15 +33,14 @@ a {
     text-align: center;
     color: gray;
     margin: 0;
-    float: right;
+    float: left;
     padding: 10px;
+    padding-top: 25px;
     
 }
 
 #a2 {
     border-right: solid 2px #cccccc;
-    border-top: 0px; 
-    border-bottom: 0px;
     border-left: solid 2px #cccccc;
 }
 
@@ -81,6 +79,7 @@ footer {
     color: #ffffff;
     width: 100%;
     bottom: 0;
+    left: 0;
     position: fixed;
     margin-top: 25px;
     border-top: solid 7px #4aaaa5;
@@ -91,33 +90,28 @@ footer {
 
                     /* Portfolio */
 
-
 .my-portfolio {
 
     clear: both;
     padding: 10px 40px 20px 40px;
     margin: 100px auto 60px auto;
+    
     width: 960px;
+    height: 700px;
     border: solid 2px #cccccc;
     background: #ffffff;
 }
 
-#kenR, #deanW, #jasonA, #joshH, #axellH, #firstT {
-    border: solid 4px #cccccc;
+.moto-img{
+    border: solid 4px #4aaaa5;
+    float: left;
     margin: 10px;
     margin-left: 35px;
     margin-right: 35px;
-
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
 }
-#kenR:hover {
-    color: red;
-}
-
-
-
-
-
-
 
                     /* Contact */
 
@@ -129,4 +123,14 @@ footer {
     width: 960px;
     border: solid 2px #cccccc;
     background: #ffffff;
+}
+
+#name-input, #email-input {
+    height: 20px;
+    width: 950px;
+}
+
+#message-input {
+    height: 175px;
+    width: 950px;
 }
