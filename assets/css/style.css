@@ -1,45 +1,133 @@
 body {
-    width: 960px;
+    width: 100%;
     position: fixed;
     padding-right: 50%;
     padding-right: 50%;
+    /* clear: both; */
+}
+
+
+h1 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+    float: left;
+  
+}
+
+header {
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: solid 2px #cccccc;
+    background: white;
+    clear: both;
+}
+
+a {
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    margin: 0;
+    float: right;
+    padding: 10px;
     
+}
+
+#a2 {
+    border-right: solid 2px #cccccc;
+    border-top: 0px; 
+    border-bottom: 0px;
+    border-left: solid 2px #cccccc;
+}
+
+/* Look into padding how it me worked. I had to borrow this */
+.about-me {
+    
+    clear: both;
+    padding: 10px 40px 20px 40px;
+    margin: 100px auto 60px auto;
+    width: 960px;
+    border: solid 2px #cccccc;
+    background: #ffffff;
 
 }
-.header-about, .header-contact, .header-portfolio {
 
-    background: #ffffff;
-    border: solid 2px #cccccc;
-    float: left;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 25px;
+h2 {
+    padding-bottom: 25px;
+    border-bottom: solid 2px #666666;
+    color: #4aaaa5;
+    
 }
 
 #beach-picture {
     float: left;
-    border-right: solid 10px #ffffff;
-}
-.about-me {
-    background: #ffffff;
-    float: left;
-    border: solid 2px #cccccc;
-    width: 100%;
-    margin-bottom: 60px;
-    
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 p {
-   font-size: 20px; 
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer {
+    clear: both;
+    color: #ffffff;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    margin-top: 25px;
+    border-top: solid 7px #4aaaa5;
+    text-align: center;
+    background: #666666;
+    
 }
 
 
 
 
 
-footer {
+
+
+
+
+
+
+                    /* Portfolio */
+
+
+.my-portfolio {
+
     clear: both;
-    text-align: center;
-    border: solid 2px #4aaaa5;
-    width: 100%;
+    padding: 10px 40px 20px 40px;
+    margin: 100px auto 60px auto;
+    width: 960px;
+    border: solid 2px #cccccc;
+    background: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+                    /* Contact */
+
+.my-contact {
+
+    clear: both;
+    padding: 10px 40px 20px 40px;
+    margin: 100px auto 60px auto;
+    width: 960px;
+    border: solid 2px #cccccc;
+    background: #ffffff;
 }
