@@ -89,16 +89,6 @@ footer {
     
 }
 
-
-
-
-
-
-
-
-
-
-
                     /* Portfolio */
 
 
@@ -112,7 +102,16 @@ footer {
     background: #ffffff;
 }
 
+#kenR, #deanW, #jasonA, #joshH, #axellH, #firstT {
+    border: solid 4px #cccccc;
+    margin: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
 
+}
+#kenR:hover {
+    color: red;
+}
 
 
 
