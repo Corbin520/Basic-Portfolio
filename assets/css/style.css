@@ -2,6 +2,8 @@ body {
     width: 100%;
     clear: both;
     background-image: url("../images/DustBackground.png");
+    font-family: Arial, Helvetica, sans-serif;
+    display: -webkit-box;
 }
 
 
@@ -10,7 +12,8 @@ h1 {
     color: white;
     text-align: center;
     font-size: 30px;
-    margin: 0 565px 0 205px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 520px 0 205px;
     padding: 20px;
     float: left;
   
@@ -24,18 +27,19 @@ header {
     left: 0;
     width: 100%;
     border-bottom: solid 2px #cccccc;
-    background: white;
+    background: #ffffff;
     clear: both;
 }
 
 a {
     font-size: 15px;
     text-align: center;
-    color: gray;
+    color: #777777;
     margin: 0;
     float: left;
     padding: 10px;
     padding-top: 25px;
+    text-decoration: none;
     
 }
 
@@ -44,7 +48,7 @@ a {
     border-left: solid 2px #cccccc;
 }
 
-/* Look into padding how it me worked. I had to borrow this */
+
 .about-me {
     
     clear: both;
@@ -59,6 +63,7 @@ a {
 h2 {
     padding-bottom: 25px;
     border-bottom: solid 2px #666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     
 }
@@ -67,11 +72,14 @@ h2 {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+    border-radius: 7px;
 }
 
 p {
     font-size: 20px;
     line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 footer {
@@ -95,7 +103,6 @@ footer {
     clear: both;
     padding: 10px 40px 20px 40px;
     margin: 100px auto 60px auto;
-    
     width: 960px;
     height: 700px;
     border: solid 2px #cccccc;
@@ -126,11 +133,15 @@ footer {
 }
 
 #name-input, #email-input {
-    height: 20px;
+    height: 30px;
     width: 950px;
 }
 
 #message-input {
     height: 175px;
     width: 950px;
+}
+
+h6 {
+    color: #D3D3D3;
 }
